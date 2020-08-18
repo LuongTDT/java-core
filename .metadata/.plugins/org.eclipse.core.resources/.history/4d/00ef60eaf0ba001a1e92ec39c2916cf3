@@ -1,0 +1,14 @@
+package Test;
+
+public class TestString {
+	final int a;
+	
+	public TestString() {
+		a = 10;
+	}
+	
+	
+	public static void main(String[] args) {
+		System.out.println(new TestString().a);
+	}
+}
